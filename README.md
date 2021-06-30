@@ -15,3 +15,16 @@ After we print the Transpose of the second matrix, the program will multiply wit
 Besides multiplying a matrix with a transposed matrix, the column number of the first Matrix and the column of the transposed matrix should be equal. 
 
 If the multiplication isn't possible, an error message will display to the user.
+
+
+- main() Invoke the matrix_transpose procedure to transpose a given matrix.
+Then multiply the transposed matrix with another given matrix using the matrix_multiply procedure. Finally, the program will print out the product matrix.
+
+
+- Matrix_multiply (r1,c1,A,r2,c2,B,C) This procedure computes the product of two matrices A and B and stores the result in the matrix C.
+
+Matrix A has r1 rows and c1 columns and matrix B has r2 rows and c2 columns.
+Here A, B, and C are the memory addresses at which the matrices A, B, and C are stored. Assume that matrices are stored in memory in row-major fashion. Matrix C will have r1 rows and c2 columns.
+
+- num_columns1 is the number of columns in each row of M, whereas num_rows is the number of rows in each column of N and num_columns2 is the number of columns in N
+- If num_rows is not equal to num_columns1 this program should print an error message and exit. This procedure returns an integer (the inner product) to the calling procedure.
