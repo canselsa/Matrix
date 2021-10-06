@@ -22,4 +22,5 @@ Matrix A has r1 rows and c1 columns and matrix B has r2 rows and c2 columns. Her
 Assume that matrices are stored in memory in a row-major fashion. Matrix C will have r1 rows and c2 columns.
 
 - num_columns1 is the number of columns in each row of M, whereas num_rows is the number of rows in each column of N and num_columns2 is the number of columns in N.
-- If num_rows is not equal to num_columns1, this program should print an error message and exit. This procedure returns an integer (the inner product) to the calling procedure.
+- If num_rows is not equal to num_columns1, this program should print an error message and exit. 
+This procedure returns an integer (the inner product) to the calling procedure.
