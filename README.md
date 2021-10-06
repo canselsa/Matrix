@@ -9,7 +9,7 @@ The purpose of this project is to write a program that finds the transpose and t
 ```
 After entering the size, the program will compute the transpose of the second matrix and print it on the screen.
 
-The transpose of a matrix is a new matrix that is obtained by changing the rows to columns and columns to the row. In other words, transpose of **A[ ][ ]** is obtained by changing `A[ i ][ j ]` to `A[ j ][ i ]`. 
+The transpose of a matrix is a new matrix that is obtained by changing the rows to columns and columns to the row. In other words, transpose of `A[ ][ ]` is obtained by changing `A[ i ][ j ]` to `A[ j ][ i ]`. 
 After we print the Transpose of the second matrix, the program will multiply it with the first matrix. Then, the result is displayed on the screen.
 
 Besides multiplying a matrix with a transposed matrix, the column number of the first matrix and the column number of the transposed matrix should be equal.
